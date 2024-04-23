@@ -1,7 +1,6 @@
 ﻿console.log("Welcome to Music Player");
 
 
-
 let songIndex = 0;
 let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
@@ -86,8 +85,8 @@ let songs = [
 ]
 
 songItems.forEach((element, i) => {
-    element.getElementsByTagName("img")[i].src = songs[i].coverPath;
-    element.getElementsByClassName("songName")[i].innerText = songs[i].songName;
+    element.getElementsByTagName("img")[0].src = songs[i].coverPath;
+    element.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 })
 
 
