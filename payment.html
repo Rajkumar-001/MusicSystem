@@ -125,7 +125,7 @@ p{
     <div class="mainscreen">
         <div class="card">
           <div class="rightside">
-            <form #f="ngForm" (submit)="getFieldValue($event,f.value)">
+            <form action="./payment2.html" method="get">
               <h1>Payment</h1>
               <h2>Payment Information</h2>
               <p>Cardholder Name</p>
@@ -139,6 +139,7 @@ p{
                 <option value="Visa">Visa</option>
                 <option value="RuPay">RuPay</option>
                 <option value="MasterCard">MasterCard</option>
+                <option value="American Express">American Express</option>  
               </select>
     <div class="expcvv">
     
@@ -161,7 +162,7 @@ p{
               </div>
               <div>
                   <h1 class = "display-6">Title-</h1>
-                  <p class="fs-5 pp" >{{prgi.Title}}</p>
+                  <p class="fs-5 pp" ></p>
               </div>
           </div>
         </div>
