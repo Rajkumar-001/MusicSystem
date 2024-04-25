@@ -7,10 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>  Music On The Go</title>
     <link href="Home.css" rel="stylesheet" />
-    <link href="Navbar.css" rel="stylesheet" />
+    <!-- <link href="Navbar.css" rel="stylesheet" /> -->
 
     <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./responsive.css">
     <style>
+
+/* nav {
+ display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* width: 20%;
+  height: 20%; */
+
+}
+
+*/
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  max-width: 10%;
+  background: #2980b9;
+  margin: auto;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center; 
+}
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
 
     </style>
   
@@ -18,48 +68,20 @@
 </head>
 
 <body>
-    <nav class="navbar" style="display: flex;">
-        <ul class="navbar-nav">
-            <li class="logo">
-                <a class="nav-link" href="./About.html">
-
-                    
-                    <span class="link-text">RhythmixRealm</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"  href="./Home.html">
-                    
-                    <span class="link-text">Home</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./About.html">
-                   
-                    <span class="link-text">About us</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Library.html">
-                   
-                    <span class="link-text">Library</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="ratingAndReview.html">
-                    
-                    <span class="link-text">Rating & Review</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="payment.html">
-                    <span class="link-text">Take Subscription</span>
-                </a>
-            </li>
-
-           
-        </ul>
-    </nav>
+    <nav>
+        <div class="navbar">
+          <div class="logo"><a href="./About.html">RhythmixRealm</a></div>
+          <ul class="menu">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./About.html">About us</a></li>
+            <li><a href="./Library.html">Library</a></li>
+            <li><a href="ratingAndReview.html">Rating & Review</a></li>
+            <li><a href="payment.html">Take Subscription</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+       
     <main>
         <h1 class="margin">Made For You!</h1>
         <div class="container margin">
