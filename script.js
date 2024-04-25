@@ -1,4 +1,4 @@
-﻿console.log("Welcome to Music Player");
+﻿console.log("Welcome to Spotify");
 
 
 let songIndex = 0;
